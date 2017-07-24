@@ -17,6 +17,6 @@ contact: kln@cas.au.dk
 | DAY3, July 26 | 09:00-12:00	| Plain Text			  | NLPP, chp. 3	   |
 |				| 13:00-15:00	| Data cleaning			  | NLPP, chp. 3	   |
 | DAY4, July 27 | 09:00-12:00	| Word Frequencies		  |					   |
-|				| 13:00-15:00	| Visualization			  |					   |
-| DAY5, July 28 | 09:00-12:00	| Word Similarity		  |					   |
+|				| 13:00-15:00	| Word Similarity		  |					   |
+| DAY5, July 28 | 09:00-12:00	| Visualization		      |					   |
 |				| 13:00-15:00	| Project Session		  |					   |
