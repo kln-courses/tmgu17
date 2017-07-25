@@ -13,5 +13,4 @@
 [git for mac](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)  
 [git for win](https://git-for-windows.github.io/)
 ## day 2 ##
-**preparation**    
-[SWC setup](http://swcarpentry.github.io/python-novice-inflammation/setup/)
+migrated to our tmgu17/general channel for convenience  
