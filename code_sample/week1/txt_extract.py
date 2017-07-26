@@ -2,9 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-pdf to txt
-use: 
-python txt_extract.py /path/to/my/pdffolder
+export plain text content from multiple pdf files to txt files
+use: python txt_extract.py /path/to/my/pdffolder
 
 """
 
@@ -16,6 +15,11 @@ from pdfminer.pdfpage import PDFPage
 from cStringIO import StringIO
 
 def pdf2txt(path):
+    """
+    extracts plain text for individual pdf file on path
+        - codec: utf-8
+        - if embedded password in pdf, password parameter should be updated
+    """
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
     codec = 'utf-8'
@@ -36,12 +40,19 @@ def pdf2txt(path):
     return text
 
 def pdf2txt_save(filepath):
+    """
+    runs and saves output from pdf2txt as ascii
+        - modify with io for unicode
+    """
     output = pdf2txt(filepath)
     outname = re.sub("\.pdf",".txt",filepath)
     with open(outname,"w") as f:
         f.write(output)
 
 def pdf2txt_multi(dirpath):
+    """
+    export all files on directory path to pdf2txt_save
+    """
     filelist = glob.glob(dirpath + "/*.pdf")
     for filename in filelist:
         print "conversion of "+ filename.split("/")[-1]
