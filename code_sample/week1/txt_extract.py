@@ -2,9 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-export plain text content from multiple pdf files to txt files
+converts multiple pdf files to plain text txt files
 use: python txt_extract.py /path/to/my/pdffolder
-
 """
 
 import glob, re, sys
