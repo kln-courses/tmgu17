@@ -31,13 +31,13 @@ def plotvars(x,y = 0, sv = False, filename = 'qd_plot.png', ax1 = '$x$', ax2 = '
         ax.set_xlabel(ax1)
         ax.set_ylabel(ax2)
     else:
-        ax.plot(x, color = 'k')
-        ax.set_xlabel("$time$")
-        ax.set_ylabel("$var~1$")
-    plt.rc('text', usetex=True)
-    font = {'family' : 'serif','serif': ['times'], 'weight' : 'bold', 'size': 12}
-    mpl.rc('font', **font)
-    mpl.rcParams['axes.linewidth'] = 2
+        ax.plot(x, color = 'k', linewidth = .1)
+        ax.set_xlabel(ax1)
+        ax.set_ylabel(ax2)
+    #plt.rc('text', usetex=True)
+    #font = {'family' : 'serif','serif': ['times'], 'weight' : 'bold', 'size': 12}
+    #mpl.rc('font', **font)
+    #mpl.rcParams['axes.linewidth'] = 2
     if sv:
         plt.savefig(filename, dpi = 300)
     else:
