@@ -13,6 +13,6 @@
 as a function of narrative time or between as a function of historical time*  
 **keywords** cognitive development, effects of external events, limits of analysis, ngram analysis, semantic change, specific data set, visualization
 
-### Topical Analysis and Latent pattern in a specific data set
+### Topical Analysis and Latent patterns in a specific data set
 *Group TAL studies how we can extract underlying semantic and lexical patterns from texts*  
 **keywords** limits of analysis, ngram analysis, specific data set, text topics, visualization
