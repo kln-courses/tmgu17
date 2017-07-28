@@ -22,6 +22,9 @@ contact: kln@cas.au.dk
 |				| 13:00-15:00 | Project Session		  |					   |
 
 
+--- 
+
+
 | Week2           | Time        | Episode                | Reference      |
 | --------------- |:-----------:|------------------------| ---------------|
 | DAY6, July 31   | 10:00-12:00 | Sentiment Analysis     | Reagan 2016++  |
