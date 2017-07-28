@@ -31,9 +31,9 @@ contact: kln@cas.au.dk
 | 		 		  | 13:00-15:00	| Classification		 | Underwood 2016 |
 | 		 		  | 15:00-17:00	| Group Session 		 | 			      |
 | DAY8, August 2  | 09:00-12:00	| Clustering			 | Jockers 2010   |
-|				  | 13:00-15:00	| FutureTDM+ 			 | 				  |
+|				  | 13:00-15:00	| Latent Variable Models | Blei 2012	  |
 |                 | 15:00-17:00 | Group Session		     |   			  |
-| DAY9, August 3  | 09:00-12:00	| Latent Variable Models | Blei 2012	  |
+| DAY9, August 3  | 09:00-12:00	| FutureTDM+ 			 | 	  			  |
 |				  | 13:00-15:00	| Library Session+		 |			      |
 |                 | 15:00-17:00 | Group Session		     |   			  |
 | DAY0, August 4  | 09:00-12:00	| Project session		 |				  |

@@ -16,3 +16,13 @@ as a function of narrative time or between as a function of historical time*
 ### Topical Analysis and Latent patterns in a specific data set
 *Group TAL studies how we can extract underlying semantic and lexical patterns from texts*  
 **keywords** limits of analysis, ngram analysis, specific data set, text topics, visualization
+
+
+
+## Process Workshop
+0. Result: Abstract 200-300 words by Sunday evening
+1. Select group by going to table
+2. Discuss research questions, data and technique(s)
+4. Plenum (summary from each group)
+5. Re-select group by going to table
+6. Plan for weekend assignment
