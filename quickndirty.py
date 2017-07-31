@@ -31,7 +31,7 @@ def plotvars(x,y = 0, sv = False, filename = 'qd_plot.png', ax1 = 'x', ax2 = 'f(
         ax.set_xlabel(ax1)
         ax.set_ylabel(ax2)
     else:
-        ax.plot(x, color = 'k', linewidth = .1)
+        ax.plot(x, color = 'k', linewidth = .3)
         ax.set_xlabel(ax1)
         ax.set_ylabel(ax2)
     if sv:

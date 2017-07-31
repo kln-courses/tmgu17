@@ -5,12 +5,13 @@ Created on Mon Jul 31 11:31:07 2017
 
 @author: kln
 """
-import os, re
-import textminer as tm
 wd = '/home/kln/Documents/edu/tmgu17'
 os.chdir(wd)
 
-text = tm.read_txt('DATA/data/pan.txt')
+import os, re
+import textminer as tm
+
+text = tm.read_txt('DATA/data/kjv.txt')
 
 print text[:200]
 
@@ -48,6 +49,8 @@ def slice_tokens(tokens, n = 100, cut_off = True):
 slices = slice_tokens(tokens, 250, True)
 print slices[1]
 
+slices[2]
+
 ### sentiment analysis with LabMT
 import pandas as pd
 labmt = pd.read_csv('res/labmt_dict.csv', sep = '\t',
@@ -55,6 +58,29 @@ labmt = pd.read_csv('res/labmt_dict.csv', sep = '\t',
 
 avg = labmt.happiness_average.mean()
 sent_dict = (labmt.happiness_average - avg).to_dict()
+
+sent_vects = []
+for s in slices:
+    sent_vects.append(sum([sent_dict.get(token,0.0) for token in s]))
+    
+
+print len(sent_vects) == len(slices)
+
+
+print slices[5]
+print sent_vects[-1]
+
+import quickndirty as qd
+qd.plotdist(sent_vects, sv = True)
+qd.plotvars(sent_vects, sv = True)
+
+
+
+
+print sent_dict['pirates']
+
+
+
 
 
 
