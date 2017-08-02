@@ -23,21 +23,18 @@ os.chdir(root)
 
 import textminer as tm
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def get_para(filepath, encoding = 'utf-8'):
+    """
+    Import text file on filepath in paragraphs
+    - default encoding unicode
+    """
+    with io.open(filepath, "r", encoding = encoding) as f:
+        text = f.read()
+        paragraphs = []
+        for s in text.split('\n\n'):
+            if s:
+                paragraph = s#.lower()
+                paragraph = re.sub(r'[^A-Za-z]',' ',paragraph)
+                paragraph = re.sub(r' +',' ',paragraph)
+                paragraphs.append(paragraph.rstrip())
+    return paragraphs
