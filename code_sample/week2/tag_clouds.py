@@ -1,13 +1,11 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 from __future__ import division
-import math, re, string
-import matplotlib as mpl
+import os
 import matplotlib.pyplot as plt
-import numpy as np
 # set working directory
 os.chdir(os.path.expanduser('~/Documents/tmgu17/scripts'))
-import tmgu as tm
+import textminer as tm
 ## get data
 text_ls, text_names = tm.read_dir_txt('data/')
 text = text_ls[3]
