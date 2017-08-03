@@ -6,6 +6,10 @@ instructors: Kristoffer L. Nielbo
 contact: kln@cas.au.dk
 ```
 
+Week 1 introduces the core functionality of Python in relation to unstructured and text heavy data  
+
+
+
 | Week1         | Time          | Episode             | Reference          |
 | ------------- |:-------------:|---------------------| ------------------ |
 | DAY1, July 24 | 09:00-12:00 | Text analytics        | Fayyad 1996        |
@@ -22,7 +26,8 @@ contact: kln@cas.au.dk
 |				| 13:00-15:00 | Project Session		  |					   |
 
 
---- 
+---
+Week 2 explains multiple machine learning approaches to acquiring knowledge from large collections of text data    
 
 
 | Week2           | Time        | Episode                | Reference      |
