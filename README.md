@@ -27,7 +27,7 @@ Week 1 introduces the core functionality of Python in relation to unstructured a
 
 
 ---
-Week 2 explain multiple machine learning approaches to acquiring knowledge from large collections of text data    
+Week 2 explains multiple machine learning approaches to acquiring knowledge from large collections of text data    
 
 
 | Week2           | Time        | Episode                | Reference      |
