@@ -1,0 +1,52 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\author{K.L. Nielbo}
+
+\title{Oral Exam v. 2 in TMGU17\\Friday August 11\\Room 1453-215}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline 
+\texttt{TIME} & \texttt{NAME} \\ 
+\hline 
+08:00-08:20 & Laura Bæk Pedersen \\% early as possible
+\hline 
+08:20-08:40 & Anne Agersnap \\% early as possible 
+\hline 
+08:40-09:00 & Cathrine Ramsing (SKYPE) \\% early as possible 
+\hline 
+09:00-09:20 & Ida Dam Juutilainen (SKYPE)\\% early as possible 
+\hline 
+09:20-09:40 & Mathilde Harder (SKYPE)\\% early as possible
+\hline 
+09:40-10:00 & Anna Kryvous \\ 
+\hline 
+10:00-10:20 & Lilian Nijhuis\\ 
+\hline 
+10:20-10:40 & Romina Paz \\ 
+\hline 
+10:40-11:00 & Eva Elisabeth Houth Vrangbæk \\% between 10-12
+\hline 
+11:00-11:20 & Linn Dahler \\ 
+\hline 
+11:20-11:40 & Jose Lopez Cusi\\ 
+\hline 
+11:40-12:00 & Alonso Domínguez Cabañes\\
+\hline 
+12:00-12:30 & Liisalotte Elme \& Emma Elisabeth Kiis\\% late as possible  
+\hline 
+%12:20-12:40 &   
+%\hline
+%12:40-13:00 & • \\ 
+%\hline  
+\end{tabular} 
+\end{center}
+\end{document}
